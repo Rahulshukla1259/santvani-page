@@ -1,3 +1,6 @@
+##how to run 
+###copy code in vs-code as it is and then run the command `npm run start`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
