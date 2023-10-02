@@ -3,11 +3,20 @@ import React from "react";
 import "./index.css";
 
 export default function Nav() {
+  let handleEnglish=()=>{
+
+    document.querySelector(".lang_name").innerText="EN"
+  }
+
+  let handleHindi=()=>{
+
+    document.querySelector(".lang_name").innerText="HI"
+  }
   return (
     <div>
       <nav
-        style={{ backgroundColor: "#cc3300", height: "50px" }}
-        class="navbar navbar-expand-lg sticky top-0 bg-brand-700"
+
+        class="navbar nav-main navbar-expand-lg sticky top-0 bg-brand-700"
       >
         <div className="container-fluid mx-3">
           <img
@@ -165,7 +174,7 @@ export default function Nav() {
                    
                     className="lang_name text-white my-1"
                   >
-                    HI
+                    EN
                   </span>
                   <button
                     style={{ border: "none", color: "white" }}
@@ -180,12 +189,12 @@ export default function Nav() {
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a onClick={handleHindi} class="dropdown-item" href="#">
                         hindi
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a onClick={handleEnglish} class="dropdown-item" href="#">
                         English
                       </a>
                     </li>
@@ -195,9 +204,10 @@ export default function Nav() {
               <span class="material-symbols-outlined text-white my-1">
                 call
               </span>
-              <span class="material-symbols-outlined text-white bold my-1 d-flex">
+              <span class="material-symbols-outlined text-white main-menu bold my-1 d-flex">
                 menu
               </span>
+              <span className="menu-word">Menu</span>
             </div>
           </div>
         </div>

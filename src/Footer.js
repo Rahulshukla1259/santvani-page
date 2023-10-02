@@ -21,10 +21,10 @@ import call from "./images/telephone.png";
 
 export default function Footer() {
   return (
-    <div className=" text-white main">
+    <div className=" text-white main footer-main">
       <div
-        style={{ justifyContent: "space-evenly", height: "300px"}}
-        className=" text-white  d-flex my-4"
+        style={{ justifyContent: "space-evenly", height: "300px",padding:"8px"}}
+        className=" text-white footer-main d-flex my-4"
       >
         <div className="columns  my-4">
           <h5>LIVE EVENTS</h5>

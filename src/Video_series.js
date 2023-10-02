@@ -48,5 +48,6 @@ export default function Video_series() {
         )
     })}
 </div>
+
   </div>);
 }

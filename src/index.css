@@ -380,6 +380,7 @@ hr {
   border-radius: 4px;
   background-color: orangered;
   border: none;
+  color: white;
 }
 
 .navbar .new-form input {
@@ -426,4 +427,171 @@ hr {
 .cont-faq{
 
   padding: 25px;
+}
+
+.lang_cont{
+
+  height: 20px;
+}
+
+.menu-word{
+
+  font-weight: 300;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-main{
+
+  background-color: var(--color);
+  height:50px
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+
+  .nav-main{
+
+    height: 50px;
+
+   
+  }
+
+  .main-menu{
+    
+    display: flex;
+
+  }
+
+  .footer-main{
+
+    display: flex;
+    flex-direction: column;
+
+    height: 700px;
+    
+  }
+
+  .columns{
+
+    height: 90px;
+  }
+
+  .columns p{
+
+    font-size: 9px;
+    margin-top: 5px;
+  }
+
+  .columns h5{
+
+    font-size: 11px;
+
+    margin-bottom: 4px;
+  }
+
+  .columns{
+
+    height: 80px;
+
+  }
+
+  .icons img{
+
+    width: 10px;
+    height: 10px;
+  }
+
+  .playstore img{
+
+    width: 60px;
+    height: 22px;
+
+    margin-left: 5px;
+  }
+
+  .line{
+
+    margin-top: 280px;
+
+    width: 70vw;
+    
+    
+  }
+
+  .cpy-items span {
+
+    font-size: 7px;
+  }
+
+  .cont-faq{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-faq{
+
+    width: 90vw;
+  }
+
+  .right-faq .accordian-button{
+
+    font-size: 8px;
+  }
+
+
+
+  .cont{
+
+    flex-direction: column;
+  }
+
+  .all{
+
+    display: none;
+  }
+
+  .new-form  {
+
+    width: 0px;
+  }
+
+  .new-form .inp{
+
+    width: 10px;
+
+    display: none;
+  }
+
+  .img_cont{
+
+    margin-left: 1px;
+  }
+
+  .login-cont{
+
+     display: flex;
+     flex-direction: row;
+  }
+
+  .click{
+
+    width: 50px;
+    height: 20px;
+    font-size: 6px;
+  }
+
+  .course_cont h5{
+
+     font-size: 12px;
+  }
+
+  .accordian {
+
+    width: 70vw;
+  }
 }

@@ -9,8 +9,9 @@ export default function Login() {
           justifyContent: "space-between",
           alignItems: "center",
           boxShadow: "1px 1px 1px 1px lightgrey",
+          position:"sticky"
         }}
-        className="cont d-flex flex-end"
+        className="cont login-cont d-flex flex-end"
       >
         <div
           
@@ -19,7 +20,7 @@ export default function Login() {
           <div className="img_cont">
             <img
               className="mx-2"
-              style={{ height: "25px" }}
+              style={{ height: "25px" ,position:"sticky"}}
               src="https://acharyaprashant.org/images/ic_videoseries.png"
               alt=""
             />
