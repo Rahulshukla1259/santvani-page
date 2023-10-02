@@ -406,35 +406,35 @@ hr {
 
 }
 
-.left-faq{
+.left-faq {
 
   width: 30%;
   margin-top: 30px;
 }
 
-.left-faq p span{
+.left-faq p span {
 
   color: var(--color);
   cursor: pointer;
 }
 
-.right-faq{
+.right-faq {
 
   width: 65%;
   margin-left: 10px;
 }
 
-.cont-faq{
+.cont-faq {
 
   padding: 25px;
 }
 
-.lang_cont{
+.lang_cont {
 
   height: 20px;
 }
 
-.menu-word{
+.menu-word {
 
   font-weight: 300;
   font-weight: 400;
@@ -442,10 +442,10 @@ hr {
   cursor: pointer;
 }
 
-.nav-main{
+.nav-main {
 
   background-color: var(--color);
-  height:50px
+  height: 50px
 }
 
 
@@ -453,59 +453,59 @@ hr {
 
 @media screen and (max-width: 600px) {
 
-  .nav-main{
+  .nav-main {
 
     height: 50px;
 
-   
+
   }
 
-  .main-menu{
-    
+  .main-menu {
+
     display: flex;
 
   }
 
-  .footer-main{
+  .footer-main {
 
     display: flex;
     flex-direction: column;
 
     height: 700px;
-    
+
   }
 
-  .columns{
+  .columns {
 
     height: 90px;
   }
 
-  .columns p{
+  .columns p {
 
     font-size: 9px;
     margin-top: 5px;
   }
 
-  .columns h5{
+  .columns h5 {
 
     font-size: 11px;
 
     margin-bottom: 4px;
   }
 
-  .columns{
+  .columns {
 
     height: 80px;
 
   }
 
-  .icons img{
+  .icons img {
 
     width: 10px;
     height: 10px;
   }
 
-  .playstore img{
+  .playstore img {
 
     width: 60px;
     height: 22px;
@@ -513,13 +513,13 @@ hr {
     margin-left: 5px;
   }
 
-  .line{
+  .line {
 
     margin-top: 280px;
 
     width: 70vw;
-    
-    
+
+
   }
 
   .cpy-items span {
@@ -527,67 +527,67 @@ hr {
     font-size: 7px;
   }
 
-  .cont-faq{
+  .cont-faq {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .right-faq{
+  .right-faq {
 
     width: 90vw;
   }
 
-  .right-faq .accordian-button{
+  .right-faq .accordian-button {
 
     font-size: 8px;
   }
 
 
 
-  .cont{
+  .cont {
 
     flex-direction: column;
   }
 
-  .all{
+  .all {
 
     display: none;
   }
 
-  .new-form  {
+  .new-form {
 
     width: 0px;
   }
 
-  .new-form .inp{
+  .new-form .inp {
 
     width: 10px;
 
     display: none;
   }
 
-  .img_cont{
+  .img_cont {
 
     margin-left: 1px;
   }
 
-  .login-cont{
+  .login-cont {
 
-     display: flex;
-     flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
 
-  .click{
+  .click {
 
     width: 50px;
     height: 20px;
     font-size: 6px;
   }
 
-  .course_cont h5{
+  .course_cont h5 {
 
-     font-size: 12px;
+    font-size: 12px;
   }
 
   .accordian {
