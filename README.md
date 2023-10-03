@@ -1,5 +1,8 @@
 ## HOW TO RUN
 
+`$ git clone https://github.com/Rahulshukla1259/santvani-page.git` 
+INTO ANY FOLDER AND THEN OPEN WITH VS CODE AND THEN `NPM RUN START`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
