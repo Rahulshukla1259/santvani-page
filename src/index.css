@@ -607,4 +607,18 @@ hr {
 
     width: 70vw;
   }
+
+  .sign_img{
+
+    width: 80%;
+  }
+
+  .sign_img img{
+     display: none;
+  }
+
+ .home{
+
+  display: none;
+ }
 }
