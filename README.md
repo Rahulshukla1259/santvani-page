@@ -1,7 +1,7 @@
 ## HOW TO RUN
 
 `$ git clone https://github.com/Rahulshukla1259/santvani-page.git` 
-INTO ANY FOLDER AND THEN OPEN WITH VS CODE AND THEN `NPM RUN START`
+INTO ANY FOLDER AND THEN OPEN WITH VS CODE AND THEN run `npm install` and then `npm run start`.  
 
 # Getting Started with Create React App
 
