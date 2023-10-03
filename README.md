@@ -1,5 +1,4 @@
-##how to run 
-###copy code in vs-code as it is and then run the command `npm run start`
+## HOW TO RUN
 
 # Getting Started with Create React App
 
